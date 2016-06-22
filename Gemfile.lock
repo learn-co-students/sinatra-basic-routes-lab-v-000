@@ -72,6 +72,3 @@ DEPENDENCIES
   shotgun
   sinatra
   thin
-
-BUNDLED WITH
-   1.11.2
