@@ -1,6 +1,6 @@
 
 require 'pry'
-describe "Basic Routes Lab" do
+puts describe "Basic Routes Lab" do
   describe "GET '/name'" do
     before(:each) do
       get '/name'
@@ -15,7 +15,7 @@ describe "Basic Routes Lab" do
     end
   end
 
-  describe "GET '/hometown'" do
+puts  describe "GET '/hometown'" do
     before(:each) do
       get '/hometown'
     end
@@ -43,6 +43,6 @@ describe "Basic Routes Lab" do
       expect(last_response.body).to include("My favorite song is ")
     end
 
-  
+
   end
 end
