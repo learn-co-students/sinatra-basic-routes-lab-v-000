@@ -12,7 +12,7 @@ class App < Sinatra::Base
 
     get '/favortie-song' do
         status 200
-        body "My favorite song is __"
+         "My favorite song is __"
     end
 
 
