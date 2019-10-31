@@ -1,6 +1,6 @@
 
 require 'pry'
-puts describe "Basic Routes Lab" do
+ describe "Basic Routes Lab" do
   describe "GET '/name'" do
     before(:each) do
       get '/name'
